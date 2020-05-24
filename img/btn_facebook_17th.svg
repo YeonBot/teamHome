@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>페이스북</title>
+    <g id="페이스북" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#141414" cx="36" cy="36" r="36"></circle>
+        <path d="M42.4029851,22.7885714 C39.4477612,22.7885714 39.119403,23.6371429 39.119403,25.6171429 L39.119403,29.2942857 L46.0149254,29.2942857 L45.6865672,35.8 L39.4477612,35.8 L39.4477612,55.6 L28.9402985,55.6 L28.9402985,35.8 L25,35.8 L25,29.0114286 L28.9402985,29.0114286 L28.9402985,24.7685714 C28.9402985,19.1114286 31.5671642,16 39.119403,16 L47,16 L47,22.7885714 L42.4029851,22.7885714 Z" id="Path" fill="#F6F6F6" fill-rule="nonzero"></path>
+    </g>
+</svg>
