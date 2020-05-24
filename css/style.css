@@ -252,6 +252,21 @@ a.document {
   border-color: #FF480E;
 }
 
+.btn-x2,.btn-x3{
+	margin: 7px;
+}
+
+.btn-x2:hover,
+.btn-x3:hover{
+	background-color: #141414;
+	border-color: #141414;
+}
+
+.btn-x2:active,
+.btn-x3:active{
+	color: #fff;
+}
+
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
@@ -322,12 +337,12 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #fff;
+  color: rgba(255,255,255,0.65);
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  color: #FF480E;
+  color: #fff;
   outline: 0;
 }
 
