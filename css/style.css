@@ -390,7 +390,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-  background: url("../img/main-17th-back.png") repeat;
+  /* background: url("../img/main-17th-back.png") repeat; */
+	background: #FF4F2C;
   background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: contain;
@@ -403,14 +404,87 @@ header {
   padding-bottom: 30px;
 }
 
+
 header .headerBack {
-	background: url("../img/main-17th-title.png") no-repeat;
-	background-position: center center;
-	background-size: contain;
+	background: url("../img/main-recruit-17th.png") no-repeat;
+	background-position: 27rem center;
+	background-size: 35%;
 }
 
+.recruit {
+	margin: 0 150px 0 auto;
+	color: black;
+	text-align: left;
+	font-size: 20px;
+}
+
+.recruit th{
+	padding: 5px 20px;
+}
+
+@media (max-width: 1500px) {
+	header .headerBack {
+	background: url("../img/main-recruit-17th.png") no-repeat;
+	background-position: 10rem center;
+	background-size: 35%;
+}
+
+.recruit {
+	margin: 0 150px 0 auto;
+	color: black;
+	text-align: left;
+	font-size: 20px;
+}
+
+.recruit th{
+	padding: 5px 20px;
+}
+}
+
+@media (max-width: 992px) {
+	header .headerBack {
+	background: url("../img/main-recruit-17th.png") no-repeat;
+	background-position: 10rem center;
+	background-size: 35%;
+}
+
+.recruit {
+	margin: 0 150px 0 auto;
+	color: black;
+	text-align: left;
+	font-size: 15px;
+}
+
+.recruit th{
+	padding: 5px 20px;
+}
+}
+
+@media (max-width: 700px) {
+	header .headerBack {
+	background: url("../img/ttt.png") no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	/* opacity: 0.5; */
+}
+
+.recruit {
+	margin: auto;
+	color: black;
+	text-align: center;
+	font-size: 15px;
+	opacity: 0;
+}
+
+.recruit th{
+	padding: 5px 20px;
+}
+}
+
+
+
 header .intro-text {
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 
 header .intro-text .intro-lead-in {
@@ -432,7 +506,7 @@ header .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header .intro-text {
-    padding: 200px 0 100px;
+    padding: 100px 0 100px;
   }
 
   header .intro-text .intro-lead-in {
