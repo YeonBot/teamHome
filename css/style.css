@@ -359,6 +359,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media (min-width: 768px) {
+	header .headerBack {
+		margin: 0 30px;
+	}
+	
   .navbar-default {
     background-color: transparent;
     padding: 25px 0;
@@ -399,14 +403,15 @@ header {
   -o-background-size: contain;
   text-align: center;
   color: #fff;
-  padding-top: 80px;
-  padding-bottom: 30px;
+  padding-top: 10rem;
+  padding-bottom: 6rem;
 }
 
 header .headerBack {
-	background: url("../img/main-17th-title.png") no-repeat;
+	background: url("../img/main-17th-title.svg") no-repeat;
 	background-position: center center;
 	background-size: contain;
+	margin: 0 30px;
 }
 
 header .intro-text {
@@ -432,7 +437,7 @@ header .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header .intro-text {
-    padding: 200px 0 100px;
+    padding: 150px 0 100px;
   }
 
   header .intro-text .intro-lead-in {
